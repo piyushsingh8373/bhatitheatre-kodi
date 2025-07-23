@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<addons>
+<addon id="plugin.video.bhatitheatre" name="Bhati Theatre" version="1.0.0" provider-name="Piyush">
+    <requires>
+        <import addon="xbmc.python" version="3.0.0" />
+        <import addon="script.module.requests" />
+        <import addon="script.module.beautifulsoup4" />
+    </requires>
+    <extension point="xbmc.python.plugin" library="main.py" />
+    <extension point="xbmc.addon.metadata">
+        <summary>Watch All Movies For Free</summary>
+        <description>An open source app by Piyush Bhati</description>
+        <platform>all</platform>
+    </extension>
+</addon>
+<addon id="repository.indianmovies" name="Bhati Theatre Repository" version="1.0.0" provider-name="Piyush">
+    <extension point="xbmc.addon.repository" name="Bhati Theatre Repo" version="1.0.0" checksum="sha256">
+        <info compressed="false">https://piyushsingh8373.github.io/kodi-repo/addons.xml</info>
+        <checksum>https://piyushsingh8373.github.io/kodi-repo/addons.xml.sha256</checksum>
+        <datadir>https://piyushsingh8373.github.io/kodi-repo/zips/</datadir>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary>Bhati Theatre Repository</summary>
+        <description>Auto-installs the Bhati Theatre Kodi add-on and dependencies.</description>
+        <platform>all</platform>
+    </extension>
+</addon>
+</addons>
