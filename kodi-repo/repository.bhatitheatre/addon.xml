@@ -6,9 +6,9 @@
                name="Bhati Theatre Repo"
                version="1.0.0"
                checksum="sha256">
-        <info compressed="false">https://piyushsingh8373.github.io/kodi-repo/addons.xml</info>
-        <checksum>https://piyushsingh8373.github.io/kodi-repo/addons.xml.sha256</checksum>
-        <datadir>https://piyushsingh8373.github.io/kodi-repo/zips/</datadir>
+        <info compressed="false">https://piyushsingh8373.github.io/bhatitheatre-kodi/kodi-repo/addons.xml</info>
+        <checksum>https://piyushsingh8373.github.io/bhatitheatre-kodi/kodi-repo/addons.xml.sha256</checksum>
+        <datadir>https://piyushsingh8373.github.io/bhatitheatre-kodi/kodi-repo/zips/</datadir>
     </extension>
     <extension point="xbmc.addon.metadata">
         <summary>Bhati Theatre Repository</summary>
