@@ -1,0 +1,18 @@
+<addon id="repository.indianmovies"
+       name="Bhati Theatre Repository"
+       version="1.0.0"
+       provider-name="Piyush">
+    <extension point="xbmc.addon.repository"
+               name="Bhati Theatre Repo"
+               version="1.0.0"
+               checksum="sha256">
+        <info compressed="false">https://piyushsingh8373.github.io/kodi-repo/addons.xml</info>
+        <checksum>https://piyushsingh8373.github.io/kodi-repo/addons.xml.sha256</checksum>
+        <datadir>https://piyushsingh8373.github.io/kodi-repo/zips/</datadir>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary>Bhati Theatre Repository</summary>
+        <description>Auto-installs the Bhati Theatre Kodi add-on and dependencies.</description>
+        <platform>all</platform>
+    </extension>
+</addon>
